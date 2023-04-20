@@ -28,7 +28,8 @@
         android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_status" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_status"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/txt_fisica"
@@ -41,7 +42,8 @@
         android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_matematicas" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_matematicas"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/txt_quimica"
@@ -54,7 +56,8 @@
         android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_fisica" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_fisica"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button"
